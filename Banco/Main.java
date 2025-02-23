@@ -43,7 +43,7 @@ public class Main {
         String esPrioritarioStr = scanner.nextLine().toLowerCase();
         boolean esPrioritario = esPrioritarioStr.equals("s");
         colaClientes.add(new Cliente(nombre, esPrioritario));
-        System.out.println("Cliente agregado a la cola.");
+        System.out.println("Cliente " + nombre + " agregado a la cola."); // Mensaje más claro
     }
 
     private static void atenderCliente() {
