@@ -52,6 +52,8 @@ public class Main {
         } else {
             Cliente cliente = colaClientes.poll();
             System.out.println("Atendiendo a: " + cliente);
+             // Mostrar cuántos clientes quedan en espera
+        System.out.println("Clientes restantes en espera: " + colaClientes.size());
         }
     }
 
