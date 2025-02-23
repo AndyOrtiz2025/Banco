@@ -18,6 +18,7 @@ public class Cliente {
 
     @Override
     public String toString() {
+         // Devuelve el nombre del cliente con un indicador si es prioritario
         return nombre + (esPrioritario ? " (PROPIETARIO)" : "");
     }
 }
