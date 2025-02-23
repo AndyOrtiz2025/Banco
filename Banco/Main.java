@@ -28,7 +28,8 @@ public class Main {
                     mostrarCola();
                     break;
                 case 4:
-                    System.out.println("Saliendo...");
+                    System.out.println("Gracias por usar el sistema de atención del banco");
+                    System.out.println("**************************************************");
                     break;
                 default:
                     System.out.println("Opción no válida vulve a intentarlo.");
